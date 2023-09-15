@@ -1,0 +1,24 @@
+INFO:root:Application Started
+INFO:root:Working directory: C:\Users\304\.visdom
+Traceback (most recent call last):
+  File "C:\Users\304\anaconda3\envs\zero\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\304\anaconda3\envs\zero\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\visdom\server\__main__.py", line 16, in <module>
+    download_scripts_and_run()
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\visdom\server\run_server.py", line 236, in download_scripts_and_run
+    main()
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\visdom\server\run_server.py", line 220, in main
+    start_server(
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\visdom\server\run_server.py", line 55, in start_server
+    app.listen(port, max_buffer_size=1024**3)
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\tornado\web.py", line 2207, in listen
+    server.listen(
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\tornado\tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "C:\Users\304\anaconda3\envs\zero\lib\site-packages\tornado\netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+Checking for scripts.
+It's Alive!
